@@ -1,9 +1,9 @@
-import {Link, Store} from '../store/model';
-import MqttClient, {IClientOptions, IClientPublishOptions} from 'mqtt';
-import {Print, logger} from '../logger';
-import {config} from '../config';
+import { Link, Store } from '../store/model';
+import MqttClient, { IClientOptions, IClientPublishOptions } from 'mqtt';
+import { Print, logger } from '../logger';
+import { config } from '../config';
 
-const {mqtt} = config.notifications;
+const { mqtt } = config.notifications;
 let client: MqttClient.Client;
 
 if (mqtt.broker) {
@@ -31,10 +31,13 @@ export function sendMqttMessage(link: Link, store: Store) {
 
     (async () => {
       const givenUrl = link.cartUrl ? link.cartUrl : link.url;
-      const message = `{"msg":"${Print.inStock(
-        link,
-        store
-      )}", "url":"${givenUrl}"}`;
+
+      const message = {
+        ...link,
+        name: store.name,
+        updatedAt: new Date().toUTCString(),
+      };
+
       const topic = generateTopic(link, store, mqtt.topic);
       const pubOptions: IClientPublishOptions = {
         qos: mqtt.qos as 0 | 1 | 2,
@@ -42,7 +45,7 @@ export function sendMqttMessage(link: Link, store: Store) {
       };
 
       try {
-        client.publish(topic, message, pubOptions);
+        client.publish(topic, JSON.stringify(message), pubOptions);
         logger.info('✔ mqtt message sent');
       } catch (error: unknown) {
         logger.error("✖ couldn't send mqtt message", error);
