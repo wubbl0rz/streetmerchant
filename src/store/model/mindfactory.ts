@@ -1,4 +1,4 @@
-import {Store} from './store';
+import { Store } from './store';
 
 export const Mindfactory: Store = {
   currency: '€',
@@ -25,28 +25,28 @@ export const Mindfactory: Store = {
         'https://www.mindfactory.de/product_info.php/8GB-MSI-GeForce-RTX2070Super-GAMING-X-DDR6--Retail-_1329683.html',
     },
     {
-       brand: 'gainward',
-       model: 'phantom gaming',
-       series: '3090',                                                                                       
-       url: 'https://www.mindfactory.de/product_info.php/24GB-Gainward-GeForce-RTX-3090-Phantom-DDR6--Retail-_1383760.html',
+      brand: 'gainward',
+      model: 'phantom gaming',
+      series: '3090',
+      url: 'https://www.mindfactory.de/product_info.php/24GB-Gainward-GeForce-RTX-3090-Phantom-DDR6--Retail-_1383760.html',
     },
     {
-       brand: 'zotac',
-       model: 'trinity oc',
-       series: '3090',                                                                                       
-       url: 'https://www.mindfactory.de/product_info.php/24GB-ZOTAC-GeForce-RTX-3090-TRINITY-OC_1392916.html',
+      brand: 'zotac',
+      model: 'trinity oc',
+      series: '3090',
+      url: 'https://www.mindfactory.de/product_info.php/24GB-ZOTAC-GeForce-RTX-3090-TRINITY-OC_1392916.html',
     },
     {
-       brand: 'msi',
-       model: 'gaming trio',
-       series: '3090',                                                                                       
-       url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-GAMING-X-TRIO-DDR6--Retail-_1377232.html',
+      brand: 'msi',
+      model: 'gaming trio',
+      series: '3090',
+      url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-GAMING-X-TRIO-DDR6--Retail-_1377232.html',
     },
     {
-       brand: 'msi',
-       model: 'suprim',
-       series: '3090',                                                                                       
-       url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-SUPRIM-X--Retail-_1384562.html',
+      brand: 'msi',
+      model: 'suprim',
+      series: '3090',
+      url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-SUPRIM-X--Retail-_1384562.html',
     },
     {
       brand: 'amd',
@@ -108,7 +108,7 @@ export const Mindfactory: Store = {
     {
       brand: 'powercolor',
       model: 'red dragon',
-      series: 'rx6800',
+      series: 'rx6800xt',
       url:
         'https://www.mindfactory.de/product_info.php/16GB-Powercolor-Radeon-RX-6800XT-Red-Dragon-DDR6--Retail-_1391874.html',
     },
@@ -122,7 +122,7 @@ export const Mindfactory: Store = {
     {
       brand: 'asrock',
       model: 'phantom gs',
-      series: 'rx6800',
+      series: 'rx6800xt',
       url:
         'https://www.mindfactory.de/product_info.php/16GB-ASRock-Radeon-RX-6800-XT-PHANTOM-GAMING-DDR6_1386619.html',
     },
@@ -150,7 +150,7 @@ export const Mindfactory: Store = {
     {
       brand: 'sapphire',
       model: 'nitro oc',
-      series: 'rx6800',
+      series: 'rx6800xt',
       url:
         'https://www.mindfactory.de/product_info.php/16GB-Sapphire-Radeon-RX-6800-XT-NITRO--OC-HDMI-3xDP_1388340.html',
     },
@@ -161,7 +161,7 @@ export const Mindfactory: Store = {
       model: 'merc',
       series: 'rx6800xt',
       url:
-	'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-XT-Speedster-MERC319-DDR6-Black-Gaming-retail_1386623.html',
+        'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-XT-Speedster-MERC319-DDR6-Black-Gaming-retail_1386623.html',
     },
     {
       brand: 'asrock',
