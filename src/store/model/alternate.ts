@@ -1,10 +1,10 @@
-import {Store} from './store';
+import { Store } from './store';
 
 export const Alternate: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '.stockStatus',
+      container: '.align-items-center b',
       text: [
         'auf lager',
         'ware neu eingetroffen',
@@ -18,11 +18,11 @@ export const Alternate: Store = {
     },
     outOfStock: [
       {
-        container: '.stockStatus',
+        container: '.align-items-center b',
         text: ['liefertermin unbekannt'],
       },
       {
-        container: '.stockStatus',
+        container: '.align-items-center b',
         text: ['Artikel kann nicht gekauft werden'],
       },
     ],
@@ -39,6 +39,12 @@ export const Alternate: Store = {
       model: 'amd reference',
       series: '3060ti',
       url: 'https://www.alternate.de/ASUS/GeForce-RTX-3060-Ti-DUAL-Grafikkarte/html/product/1693461',
+    },
+    {
+      brand: 'asus',
+      model: 'amd reference',
+      series: '3060ti',
+      url: 'https://www.alternate.de/ASUS/GeForce-RTX-3060-Ti-ROG-STRIX-GAMING-OC-Grafikkarte/html/product/1693464',
     },
     {
       brand: 'asus',
