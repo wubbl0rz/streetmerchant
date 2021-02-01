@@ -25,74 +25,28 @@ export const Mindfactory: Store = {
         'https://www.mindfactory.de/product_info.php/8GB-MSI-GeForce-RTX2070Super-GAMING-X-DDR6--Retail-_1329683.html',
     },
     {
-      brand: 'gigabyte',
-      model: 'aorus master',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Gigabyte-RTX3080-AORUS-MASTER-GDDR6X-3xHDMI-3xDP--Retail-_1378681.html',
+       brand: 'gainward',
+       model: 'phantom gaming',
+       series: '3090',                                                                                       
+       url: 'https://www.mindfactory.de/product_info.php/24GB-Gainward-GeForce-RTX-3090-Phantom-DDR6--Retail-_1383760.html',
     },
     {
-      brand: 'gigabyte',
-      model: 'aorus xtreme',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Gigabyte-RTX3080-AORUS-XTREME-GDDR6X-3xHDMI-3xDP--Retail-_1380484.html',
+       brand: 'zotac',
+       model: 'trinity oc',
+       series: '3090',                                                                                       
+       url: 'https://www.mindfactory.de/product_info.php/24GB-ZOTAC-GeForce-RTX-3090-TRINITY-OC_1392916.html',
     },
     {
-      brand: 'gigabyte',
-      model: 'gaming oc',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Gigabyte-GeForce-RTX-3080-Gaming-OC-3xDP-2x-HDMI--Retail-_1376263.html',
+       brand: 'msi',
+       model: 'gaming trio',
+       series: '3090',                                                                                       
+       url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-GAMING-X-TRIO-DDR6--Retail-_1377232.html',
     },
     {
-      brand: 'gigabyte',
-      model: 'vision oc',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Gigabyte-RTX3080-VISION-OC-GDDR6X-2xHDMI-3xDP--Retail-_1378682.html',
-    },
-    {
-      brand: 'msi',
-      model: 'gaming x trio',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-MSI-GeForce-RTX-3080-Gaming-X-TRIO--Retail-_1376481.html',
-    },
-    {
-      brand: 'palit',
-      model: 'gaming pro',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Palit-GeForce-RTX-3080-GamingPro--Retail-_1376483.html',
-    },
-    {
-      brand: 'zotac',
-      model: 'trinity oc',
-      series: '3080',
-      url:
-        'https://www.mindfactory.de/product_info.php/10GB-Zotac-GeForce-RTX-3080-TRINITY-OC--GDDR6X-_1377143.html',
-    },
-    {
-      brand: 'gigabyte',
-      model: 'gaming oc',
-      series: '3090',
-      url:
-        'https://www.mindfactory.de/product_info.php/24GB-Gigabyte-GeForce-3090-Gaming-OC--Retail-_1377265.html',
-    },
-    {
-      brand: 'msi',
-      model: 'ventus 3x',
-      series: '3090',
-      url:
-        'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-VENTUS-3X-DDR6--Retail-_1377475.html',
-    },
-    {
-      brand: 'palit',
-      model: 'gaming pro',
-      series: '3090',
-      url:
-        'https://www.mindfactory.de/product_info.php/24GB-Palit-GeForce-RTX-3090-GamingPro-DDR6--Retail-_1377233.html',
+       brand: 'msi',
+       model: 'suprim',
+       series: '3090',                                                                                       
+       url: 'https://www.mindfactory.de/product_info.php/24GB-MSI-GeForce-RTX-3090-SUPRIM-X--Retail-_1384562.html',
     },
     {
       brand: 'amd',
@@ -124,20 +78,6 @@ export const Mindfactory: Store = {
     },
     // #region 6800
     {
-      brand: 'gigabyte',
-      model: 'gaming oc',
-      series: 'rx6800',
-      url:
-        'https://www.mindfactory.de/product_info.php/16GB-Gigabyte-Radeon-RX-6800-GAMING-OC-16G_1387544.html',
-    },
-    {
-      brand: 'gigabyte',
-      model: 'amd reference',
-      series: 'rx6800',
-      url:
-        'https://www.mindfactory.de/product_info.php/16GB-Gigabyte-Radeon-RX-6800--Retail-_1387542.html',
-    },
-    {
       brand: 'powercolor',
       model: 'amd reference',
       series: 'rx6800',
@@ -152,25 +92,46 @@ export const Mindfactory: Store = {
         'https://www.mindfactory.de/product_info.php/16GB-PowerColor-Radeon-RX-6800-Red-Dragon-DDR6-retail_1387556.html',
     },
     {
-      brand: 'sapphire',
-      model: 'amd reference',
-      series: 'rx6800',
-      url:
-        'https://www.mindfactory.de/product_info.php/16GB-Sapphire-Radeon-RX-6800-GDDR6-HDMI-DUAL-DP-USB-C--Retail-_1383029.html',
-    },
-    {
-      brand: 'sapphire',
-      model: 'nitro oc',
-      series: 'rx6800',
-      url:
-        'https://www.mindfactory.de/product_info.php/16GB-Sapphire-Radeon-RX-6800-NITRO--OC-HDMI-3xDP_1388341.html',
-    },
-    {
       brand: 'xfx',
+      model: 'merc',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-Speedster-MERC319-DDR6-Black-Gaming_1386624.html',
+    },
+    {
+      brand: 'asrock',
+      model: 'phantom gs',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-ASRock-Radeon-RX-6800-PHANTOM-GAMING-DDR6--Retail-_1388244.html',
+    },
+    {
+      brand: 'powercolor',
+      model: 'red dragon',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-Powercolor-Radeon-RX-6800XT-Red-Dragon-DDR6--Retail-_1391874.html',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-MSI-Radeon-RX-6800-GAMING-X-Trio-16G-DDR6-V396-002R_1392663.html',
+    },
+    {
+      brand: 'asrock',
+      model: 'phantom gs',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-ASRock-Radeon-RX-6800-XT-PHANTOM-GAMING-DDR6_1386619.html',
+    },
+    {
+      brand: 'powercolor',
       model: 'amd reference',
       series: 'rx6800',
       url:
-        'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-Drei-Luefter-256bit-DDR6--Retail-_1388348.html',
+        'https://www.mindfactory.de/product_info.php/16GB-Powercolor-Radeon-RX-6800-Fighter-DDR6-Drei-Luefter-256bit--Retail_1388356.html',
     },
     {
       brand: 'xfx',
@@ -179,8 +140,36 @@ export const Mindfactory: Store = {
       url:
         'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-Speedster-MERC319-DDR6-Black-Gaming_1386624.html',
     },
+    {
+      brand: 'powercolor',
+      model: 'red dragon',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-PowerColor-Radeon-RX-6800-Red-Dragon-DDR6-retail_1387556.html',
+    },
+    {
+      brand: 'sapphire',
+      model: 'nitro oc',
+      series: 'rx6800',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-Sapphire-Radeon-RX-6800-XT-NITRO--OC-HDMI-3xDP_1388340.html',
+    },
     // #endregion
     // #region 6800xt
+    {
+      brand: 'xfx',
+      model: 'merc',
+      series: 'rx6800xt',
+      url:
+	'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6800-XT-Speedster-MERC319-DDR6-Black-Gaming-retail_1386623.html',
+    },
+    {
+      brand: 'asrock',
+      model: 'taichi',
+      series: 'rx6800xt',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-ASRock-Radeon-RX-6800-XT-Taichi-DDR6_1386618.html',
+    },
     {
       brand: 'asrock',
       model: 'phantom gaming',
@@ -204,6 +193,20 @@ export const Mindfactory: Store = {
     },
     // #endregion
     // #region 6900xt
+    {
+      brand: 'xfx',
+      model: 'merc',
+      series: 'rx6900xt',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-XFX-Radeon-RX-6900-XT-MERC319-ULTRA-DDR6-Drei-Luefter-256bit--Reta_1388407.html',
+    },
+    {
+      brand: 'powercolor',
+      model: 'red devil',
+      series: 'rx6900xt',
+      url:
+        'https://www.mindfactory.de/product_info.php/16GB-Powercolor-Radeon-RX-6900XT-Red-Devil-DDR6-Triple-Cooler--Retail-_1388403.html',
+    },
     {
       brand: 'asrock',
       model: 'amd reference',

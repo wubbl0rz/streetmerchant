@@ -36,6 +36,12 @@ export const Alternate: Store = {
     },
     {
       brand: 'asus',
+      model: 'amd reference',
+      series: '3060ti',
+      url: 'https://www.alternate.de/ASUS/GeForce-RTX-3060-Ti-DUAL-Grafikkarte/html/product/1693461',
+    },
+    {
+      brand: 'asus',
       model: 'strix',
       series: '3080',
       url: 'https://www.alternate.de/html/product/1672868',
