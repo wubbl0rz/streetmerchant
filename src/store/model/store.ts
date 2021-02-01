@@ -1,4 +1,4 @@
-import {Browser, LoadEvent} from 'puppeteer';
+import { Browser, LoadEvent } from 'puppeteer';
 
 export type Element = {
   container?: string;
@@ -14,6 +14,7 @@ export type Brand =
   | 'test:brand'
   | 'captcha-deterrent'
   | 'amd'
+  | 'nintendo'
   | 'asrock'
   | 'asus'
   | 'colorful'
@@ -39,6 +40,8 @@ export type Brand =
 export type Series =
   | 'test:series'
   | 'captcha-deterrent'
+  | 'switch-lite'
+  | 'switch'
   | '3060ti'
   | '3070'
   | '3080'
@@ -61,6 +64,8 @@ export type Model =
   | 'test:model'
   | 'captcha-deterrent'
   | '5600x'
+  | 'switch'
+  | 'switch-lite'
   | '5800x'
   | '5900x'
   | '5950x'
@@ -216,7 +221,7 @@ export type Store = {
   linksBuilder?: {
     builder: (docElement: cheerio.Cheerio, series: Series) => Link[];
     ttl?: number;
-    urls: Array<{series: Series; url: string | string[]}>;
+    urls: Array<{ series: Series; url: string | string[] }>;
   };
   labels: Labels;
   name: string;

@@ -36,6 +36,20 @@ export const AmazonDe: Store = {
       url: 'https://www.amazon.de/dp/B07PW9VBK5',
     },
     {
+      brand: 'nintendo',
+      cartUrl: 'https://www.amazon.de/dp/B07V5JJHK4',
+      model: 'switch',
+      series: 'switch',
+      url: 'https://www.amazon.de/dp/B07V5JJHK4',
+    },
+    {
+      brand: 'nintendo',
+      cartUrl: 'https://www.amazon.de/dp/B07V5JJHK4',
+      model: 'switch-lite',
+      series: 'switch-lite',
+      url: 'https://www.amazon.de/dp/B07V5JJHK4',
+    },
+    {
       brand: 'asus',
       cartUrl:
         'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08HN7VVLJ&Quantity.1=1',

@@ -209,6 +209,8 @@ const notifications = {
     notifyGroup: envOrArray(process.env.DISCORD_NOTIFY_GROUP),
     notifyGroupSeries: {
       '3060ti': envOrArray(process.env.DISCORD_NOTIFY_GROUP_3060TI),
+      'switch': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SWITCH),
+      'switch-lite': envOrArray(process.env.DISCORD_NOTIFY_GROUP_SWITCH),
       3070: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3070),
       3080: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080),
       3090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3090),
@@ -360,6 +362,8 @@ const store = {
   country: envOrString(process.env.COUNTRY, 'usa'),
   maxPrice: {
     series: {
+      'switch': envOrNumber(process.env.MAX_PRICE_SERIES_SWITCH),
+      'switch-lite': envOrNumber(process.env.MAX_PRICE_SERIES_SWITCH),
       '3060ti': envOrNumber(process.env.MAX_PRICE_SERIES_3060TI),
       3070: envOrNumber(process.env.MAX_PRICE_SERIES_3070),
       3080: envOrNumber(process.env.MAX_PRICE_SERIES_3080),
@@ -391,6 +395,7 @@ const store = {
     };
   }),
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
+    'switch',
     '3060ti',
     '3070',
     '3080',
