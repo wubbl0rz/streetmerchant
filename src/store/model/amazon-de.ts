@@ -40,7 +40,7 @@ export const AmazonDe: Store = {
       cartUrl: 'https://www.amazon.de/dp/B07V5JJHK4',
       model: 'switch',
       series: 'switch',
-      url: 'https://www.amazon.de/dp/B07V5JJHK4',
+      url: 'https://www.amazon.de/dp/B08SSBJQC9',
     },
     {
       brand: 'nintendo',
